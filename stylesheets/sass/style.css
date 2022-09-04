@@ -1,0 +1,205 @@
+@font-face {
+  font-family: 'Apercu';
+  src: url("../fonts/Apercu-Bold.woff2") format("woff2"), url("../fonts/Apercu-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Apercu';
+  src: url("../fonts/Apercu-LightItalic.woff2") format("woff2"), url("../fonts/Apercu-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: 'Apercu';
+  src: url("../fonts/Apercu-Light.woff2") format("woff2"), url("../fonts/Apercu-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Apercu';
+  src: url("../fonts/Apercu-Medium.woff2") format("woff2"), url("../fonts/Apercu-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Apercu';
+  src: url("../fonts/Apercu-Regular.woff2") format("woff2"), url("../fonts/Apercu-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+body, html {
+  width: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased !important;
+  font-smoothing: antialiased !important;
+  font-family: 'Apercu' !important;
+  background-color: #141419; }
+
+h1,
+h2,
+h3,
+p {
+  margin: 0; }
+
+.btn.blue {
+  color: white;
+  background-color: #3F8CFF;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 0.85rem; }
+
+.btn.blue:hover {
+  background-color: #35383C; }
+
+#header {
+  background-color: #141419;
+  padding: 1.5rem
+}
+  #header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1.0)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+  #header .navbar-toggler {
+    background-color: #35383C;
+    border-radius: 0;
+    border: none; }
+  #header .contact-us {
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 0.25rem 0.75rem;
+    color: white; }
+  #header .nav-link:hover {
+    color: white;
+    background-color: #35383C; }
+  #header .nav-link {
+    font-size: 0.85rem;
+    border-radius: 8px; }
+
+.section-divider {
+  background-color: #35383C;
+  width: 50%;
+  height: 1px;
+  margin: 0 auto; }
+  @media (max-width: 992px) {
+    .section-divider {
+      display: block; } }
+  @media (min-width: 992px) {
+    .section-divider {
+      display: none; } }
+
+.section {
+  width: 100%;
+  min-height: 100px;
+  background-color: #141419; }
+  .section .product-image {
+    width: 100%; }
+    .section .product-image img {
+      max-width: 500px;
+      width: 100%; }
+  @media (max-width: 992px) {
+    .section .title {
+      text-align: center; } }
+  .section .title h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 1.25rem; }
+  .section .title .services {
+    margin-top: 15px; }
+    .section .title .services .badge {
+      color: #3F8CFF;
+      font-size: 100% !important;
+      color: white; }
+  .section .title p {
+    padding-top: 15px;
+    line-height: 28px;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6); }
+  .section .title .btn {
+    margin-top: 15px; }
+
+.section-title {
+  color: white; }
+  @media (min-width: 992px) {
+    .section-title {
+      text-align: left; } }
+  @media (max-width: 992px) {
+    .section-title {
+      text-align: center; } }
+  .section-title h1 {
+    font-size: 1.1rem;
+    font-weight: bold; }
+
+.section.intro {
+  color: #141419; }
+  @media (min-width: 992px) {
+    .section.intro {
+      padding: 7rem 0; } }
+  @media (max-width: 992px) {
+    .section.intro {
+      padding: 5rem 2rem; }
+      .section.intro br {
+        display: none; } }
+  .section.intro h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white; }
+  .section.intro p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6);
+    padding-top: 15px; }
+  @media (max-width: 992px) {
+    .section.intro .product-image {
+      margin-top: 45px; } }
+
+.section.flora {
+  padding: 2rem 0; }
+  @media (max-width: 992px) {
+    .section.flora .title {
+      padding: 0 2rem; } }
+
+@media (min-width: 992px) {
+  .section.tapmybio {
+    padding: 2rem 0; } }
+@media (max-width: 992px) {
+  .section.tapmybio {
+    padding: 2rem; } }
+@media (max-width: 992px) {
+  .section.tapmybio .product-image {
+    padding: 25px; } }
+
+@media (min-width: 992px) {
+  .section.whilewewait {
+    padding: 2rem 0; } }
+@media (max-width: 992px) {
+  .section.whilewewait {
+    padding: 2rem; }
+    .section.whilewewait .title {
+      margin-top: 45px; } }
+@media (max-width: 992px) {
+  .section.whilewewait .product-image {
+    margin-top: 45px; } }
+
+.section.recs {
+  padding: 4rem 0; }
+  @media (max-width: 992px) {
+    .section.recs .product-image {
+      margin-top: 45px; } }
+
+@media (min-width: 992px) {
+  .section.kukuacorp {
+    padding: 2rem 0; } }
+@media (max-width: 992px) {
+  .section.kukuacorp {
+    padding: 2rem; } }
+@media (max-width: 992px) {
+  .section.kukuacorp .product-image {
+    margin-top: 45px; } }
+
+footer {
+  background-color: #141419;
+  text-align: center;
+  padding: 4rem 0;
+  color: rgba(255, 255, 255, 0.6); }
+  footer p {
+    font-size: 0.85rem; }
+
+/*# sourceMappingURL=style.css.map */
